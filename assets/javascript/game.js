@@ -87,17 +87,17 @@ var getRandom = function(min, max) {
   };
 
 
-  $("#blue").click(function() {
+  $("#purple").click(function() {
     //   console.log("blue!!!!")
     addValues(crystal.blue);
   });
-  $("#red").click(function() {
+  $("#blue").click(function() {
     addValues(crystal.red);
   });
-  $("#green").click(function() {
+  $("#lilac").click(function() {
     addValues(crystal.green);
   });
-  $("#yellow").click(function() {
+  $("#pink").click(function() {
     addValues(crystal.yellow);
   });
 
